@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h2>HTML FORM  4</h2>
+    <form>
+        <label for="Name"><strong>Name</strong></label>
+        <div>
+             <input type="text" name="myName" id="Name">
+        </div>
+        <br>
+        <label for="Role"><strong>Role</strong></label>
+        <div>
+            <input type="text" name="myRole" id="Role">
+        </div> 
+        <br>
+        <label for="Email"><strong>Email</strong></label>
+        <div>
+            <input type="email" name="myEmail" id="Email">
+        </div>
+        <br>
+        <label for="Date"><strong>Date</strong></label>
+        <div>
+            <input type="date" name="myDate" id="Date">
+            
+        </div>
+        <br>
+        <label for="Bonus"><strong>Bonus</strong></label>
+        <div>
+            <input type="number" name="myBonus" id="Bonus">
+            
+        </div>
+        <br>
+        <label for="Eligible"><strong>Are You Eligible</strong></label>
+        <div>
+            <input type="checkbox" name="myEligibilty" checked id="Eligible">
+            
+        </div>
+        <br>
+        <label for="Gender"><strong>Gender</strong></label>
+        <div>
+            Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender" id="Gender">
+            
+        </div>
+        <br>
+        <label for="Yourself"><strong>Write about Yourself</strong></label>
+        <div>
+            <br> <textarea name="myText" cols="30" rows="10" id="Yourself"></textarea>
+            
+        </div>
+        <br>
+        <label for="Profile"><strong>Profile</strong></label>
+        <div>
+            <select name="myProff" id="Profile" >
+                <option value="" disabled selected hidden>Select</option>
+                <option value="sstu">School Student</option>
+                <option value="cstu">College Student</option>
+                <option value="par">Parent</option>
+                <option value="tea">Teacher</option>
+                <option value="Gua">Guardian</option>
+            </select>
+            
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset Now">
+        </div>
+
+    </form>
+</body>
+</html>
